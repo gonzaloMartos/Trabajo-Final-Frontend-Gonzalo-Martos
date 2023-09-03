@@ -72,7 +72,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 4em;
-    background-color: aquamarine;
 }
 
 .img{
@@ -81,14 +80,12 @@ main{
     background-image: url('../img/padel-intro.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #242e52;
 }
 
 .titulos{
     text-align: right;
     width: 350px;
     height: 400px;
-    background-color: #242e52;
 }
 
 .titulos h2{
@@ -125,7 +122,6 @@ main{
     width: 300px;
     height: 100px;
     text-align: left;
-    background-color: #242e52;
 }
 
 .h3 h3{
@@ -139,7 +135,6 @@ main{
     width: 500px;
     height: 100px;
     text-align: left;
-    background-color: #242e52;
 }
 
 .p p{
@@ -156,7 +151,6 @@ main{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .division{
@@ -166,20 +160,17 @@ main{
     justify-content: center;
     align-items: center;
     gap: 2em;
-    background-color: #8b48bf;
 }
 
 .recuadro{
     width: 500px;
     height: 250px;
-    background-color: azure;
 }
 
 .flex{
     width: 350px;
     height: 50px;
     display: flex;
-    background-color: #3cddf3;
 }
 
 .num{
@@ -199,6 +190,7 @@ main{
     font-weight: bold;
     color: white;
 }
+
 .titulo{
     width: 295px;
     height: 40px;
@@ -232,13 +224,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .carta, .none{
     width: 450px;
     height: 250px;
-    background-color: rgba(185, 185, 193, 0.6);
+    background-color: rgba(185, 185, 193, 0.5);
 }
 
 .none{
@@ -310,20 +301,82 @@ main a{
     color: white;
 }
 
-footer{
-    width: 100vw;
-    height: 300px;
-    background-color: #1e1e1e;  
+.nav{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
 }
 
+
 .left{
+    width: 350;
     display: flex;
-    flex-direction: column;
-    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 40px 20px;   
+}
+
+.logo{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.redes{
+    width: 350px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes .bxl-facebook-square, .bxl-youtube, .bxl-twitter, .bxl-pinterest, .bxl-instagram{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5em;
 }
 
 .contenedor{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+form{
+    padding-top: 30px;
+}
+
+form .barra{
+    width: 250px;
+    height: 40px;
+    border-radius: 3em;
+    border: unset;
+    padding-left: 10px;
+}
+
+form .boton{
+    width: 60px;
+    height: 40px;
+    border-radius: 3em;
+    border: unset;
+    background-color: #8b48bf;
+    color: white;
+}
+
+footer{
+    width: 100vw;
+    height: 450px;
+    background-color: #1e1e1e;  
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
 }
