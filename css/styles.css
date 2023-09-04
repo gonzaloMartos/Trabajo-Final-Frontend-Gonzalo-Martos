@@ -242,7 +242,7 @@ h2{
 .carta, .none{
     width: 450px;
     height: 250px;
-    background-color: rgba(185, 185, 193, 0.5);
+    background-color: rgba(185, 185, 193, 0.1);
 }
 
 .none{
@@ -468,12 +468,12 @@ footer p{
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color: #1e1e1e;
+        
     }
 
     .h3 h3{
         font-size: 60px;
-        padding: 40px 40px;
+        padding: 20px 90px;
     }
 
     .p{
@@ -497,5 +497,79 @@ footer p{
 
     .p-2 p{
         font-size: 30px;
+        padding: 30px 30px;
+    }
+
+    .columnas{
+        height: 650px;;
+    }
+
+    .division{
+        height: 600px;
+        background-color: #fafafa;
+    }
+
+    .recuadro{
+        width: 600px;
+    }
+
+    .parrafo p{
+        font-size: 20px;
+    }
+
+    .titulo{
+        background-color: unset;
+    }
+
+    main h2{
+        font-size: 40px;
+    }
+
+    .none{
+        display: unset;
+    }
+
+    .more{
+        padding-bottom: 200px;
+    }
+
+    .go{
+        background-color: #8b48bf;
+    }
+
+    .go h3{
+        width: 500px;
+        height: 200px;
+        text-align: left;
+        font-size: 50px;
+        padding-top: 30px;
+    }
+
+    .go a{
+        background-color: white;
+        color: #8b48bf;
+    }
+    
+    .left{
+        flex-direction: column;
+        gap: 10em;
+    }
+
+    .redes{
+        justify-content: unset;
+        padding-left: 120px;
+    }
+
+   .redes .bxl-facebook-square, .bxl-youtube, .bxl-twitter, .bxl-pinterest, .bxl-instagram{
+        letter-spacing: 0.5em;
+    }
+
+    footer{
+        height: 350px; 
+    }
+
+    footer p{
+        text-align: right;
+        padding-right: 100px;
     }
 }
